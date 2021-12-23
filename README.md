@@ -10,7 +10,7 @@
 
 #### Commit Activities
 [![GitHub last commit](https://img.shields.io/github/last-commit/Aiko-IT-Systems/DisCatSharp?label=Last%20Commit)](https://aitsys.dev/source/DisCatSharp/history/)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Aiko-IT-Systems/DisCatSharp?label=Commit%20Activity)](https://github.com/Aiko-IT-Systems/DisCatSharp/commits/main)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Aiko-IT-Systems/DisCatSharp?label=Commit%20Activity)](https://github.com/Aiko-IT-Systems/DisCatSharp/commits/stable)
 [![wakatime](https://wakatime.com/badge/github/Aiko-IT-Systems/DisCatSharp.svg)](https://wakatime.com/badge/github/Aiko-IT-Systems/DisCatSharp)
 
 #### Stats
@@ -37,8 +37,6 @@ The latest release is always available on [NuGet](https://nuget.dcs.aitsys.dev).
 ## Documentation
 The documentation for the latest stable version is available at [docs.dcs.aitsys.dev/lts](https://docs.dcs.aitsys.dev/lts).
 
-The documentation of the latest nightly versions is available at [docs.dcs.aitsys.dev](https://docs.dcs.aitsys.dev).
-
 ## Bugs or Feature requests?
 Either join our [support guild](https://discord.gg/discatsharp) and open a support ticket.
 Or write a mail to dcs@aitsys.dev.
@@ -46,7 +44,7 @@ Or write a mail to dcs@aitsys.dev.
 All requests are tracked at [aitsys.dev](https://aitsys.dev).
 
 ## Tutorials
-* [Howto](https://docs.dcs.aitsys.dev/articles/basics/bot_account.html)
+* [Howto](https://docs.dcs.aitsys.dev/lts/articles/basics/bot_account.html)
 * [Examples](https://examples.dcs.aitsys.dev)
 
 ## Snippts
@@ -70,8 +68,8 @@ All requests are tracked at [aitsys.dev](https://aitsys.dev).
 ## Releasing
 To release a new version do the following steps:
 - Create locally a repo named `release/VERSION` (Don't forget to replace VERSION with the target version number)
-- Replace version number with the correct version in [appveyor.yml#L78](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/appveyor.yml#L78) with the new release number and [appveyor.yml#L5](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/appveyor.yml#L5) with the next-ahead release number.
-- Replace nuget version number in [Version.targets#L4](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/Version.targets#L4)
+- Replace version number with the correct version in [appveyor.yml#L78](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/stable/appveyor.yml#L78) with the new release number and [appveyor.yml#L5](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/stable/appveyor.yml#L5) with the next-ahead release number.
+- Replace nuget version number in [Version.targets#L4](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/stable/Version.targets#L4)
 - Publish branch to GitHub
 - Wait for the CI/CD to complete.
 - Merge the branch into main and delete it afterwards
