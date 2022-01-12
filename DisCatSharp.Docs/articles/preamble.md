@@ -14,12 +14,12 @@ His videos go through all the basics, from setting up your development environme
 If you're not sure what to do first, Bob's tutorial series should be your starting point!
 
 ## Supported .NET Implementations
-DisCatSharp targets .NET Standard 2.0 means that there are many implementations that *may* function with DisCatSharp.
+DisCatSharp targets .NET Standard 2.1 means that there are many implementations that *may* function with DisCatSharp.
 However, the following versions we will *explicitly* provide support for.
 
 Implementation|Support|Notes
 :---: |:---:|:---
-[.NET Core](https://en.wikipedia.org/wiki/.NET_Core)|✔️|LTS versions 2.1 & 3.1 and the current 5.0 are supported.
+[.NET Core](https://en.wikipedia.org/wiki/.NET_Core)|✔️|LTS versions 2.1 & 3.1 & 5.0 and the current 6.0 are supported.
 [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework)|⚠️|Versions 4.6.1 through 4.8 *should* work fine.<br/>But we recommend that you use the latest LTS version of .NET Core.
 [Mono](https://en.wikipedia.org/wiki/Mono_(software))|❌️|If you need a cross platform runtime, use .NET Core.
 [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine))|❌️|Consider using the official [Discord GameSDK](https://discord.com/developers/docs/game-sdk/sdk-starter-guide) instead.

@@ -1,8 +1,6 @@
 name: Docs Preview
 
 on:
-  pull_request:
-
   workflow_dispatch:
 
 jobs:
@@ -46,11 +44,10 @@ jobs:
           tar -xf dcs-docs-preview.tar.xz -C ./DisCatSharp.Docs.Preview
 
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@master
+        uses: EndBug/add-and-commit@main
         with:
           cwd: ./DisCatSharp.Docs.Preview
           default_author: github_actions
           author_name: DisCatSharp
           author_email: discatsharp@aitsys.dev
           message: 'Preview docs (${{ github.sha }})'
-          pull: 'NO-PULL'

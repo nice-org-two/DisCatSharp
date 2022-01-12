@@ -1,8 +1,8 @@
-# DisCatSharp [![GitHub](https://img.shields.io/github/license/Aiko-IT-Systems/DisCatSharp?label=License)](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/LICENSE.md) [![Sponsors](https://img.shields.io/github/sponsors/Lulalaby?label=Sponsors)](https://github.com/sponsors/Lulalaby) [![Discord Server](https://img.shields.io/discord/858089281214087179.svg?label=Discord)](https://discord.gg/discatsharp)
+# DisCatSharp [![GitHub](https://img.shields.io/github/license/Aiko-IT-Systems/DisCatSharp?label=License)](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/LICENSE.md) [![Sponsors](https://img.shields.io/github/sponsors/Lulalaby?label=Sponsors)](https://github.com/sponsors/Lulalaby) [![Discord Server](https://img.shields.io/discord/858089281214087179.svg?label=Discord)](https://discord.gg/U4BGHpKSF7)
 
-![Logo](DisCatSharp.Logos/logobig.png#64x64)
+![dcs](https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/DisCatSharp.Logos/android-chrome-192x192.png?raw=true)
 
-[Discord Bot Library](https://discord.gg/discatsharp) written in C# for .NET.
+Discord Bot Library written in C# for .NET.
 
 #### Status
 [![NuGet](https://img.shields.io/nuget/v/DisCatSharp.svg?label=NuGet%20Overall%20Version)](https://nuget.dcs.aitsys.dev)
@@ -20,6 +20,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Aiko-IT-Systems/DisCatSharp?label=Stars)](https://github.com/Aiko-IT-Systems/DisCatSharp/stargazers)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5282/badge)](https://bestpractices.coreinfrastructure.org/projects/5282)
 [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/aiko-it-systems/discatsharp)
+<!-- [![Known Vulnerabilities](https://snyk.io/test/github/Aiko-IT-Systems/DisCatSharp/badge.svg)](https://snyk.io/test/github/Aiko-IT-Systems/DisCatSharp)-->
 
 ## Why DisCatSharp?
 We want the lib always up-to-date. The newest features are important for us.
@@ -27,7 +28,7 @@ We want the lib always up-to-date. The newest features are important for us.
 So the API version is always the newest, in the actual case `v9`.
 
 ## Where is the Changelog?
-On our guild! You find it in [this channel](https://discord.com/channels/858089281214087179/858099438580006913).
+On [our guild!](https://discord.gg/U4BGHpKSF7) You find it in [this channel](https://discord.com/channels/858089281214087179/858099438580006913).
 
 ## Installing
 You can install the library from following source:
@@ -38,7 +39,7 @@ The latest release is always available on [NuGet](https://nuget.dcs.aitsys.dev).
 The documentation for the latest stable version is available at [docs.dcs.aitsys.dev/lts](https://docs.dcs.aitsys.dev/lts).
 
 ## Bugs or Feature requests?
-Either join our [support guild](https://discord.gg/discatsharp) and open a support ticket.
+Either join our [support guild](https://discord.gg/U4BGHpKSF7) and open a support ticket.
 Or write a mail to dcs@aitsys.dev.
 
 All requests are tracked at [aitsys.dev](https://aitsys.dev).
@@ -64,6 +65,7 @@ All requests are tracked at [aitsys.dev](https://aitsys.dev).
 | DisCatSharp.Lavalink                    | [![NuGet](https://img.shields.io/nuget/v/DisCatSharp.Lavalink.svg?label=)](https://nuget.dcs.aitsys.dev/DisCatSharp.Lavalink)                                       |
 | DisCatSharp.VoiceNext                   | [![NuGet](https://img.shields.io/nuget/v/DisCatSharp.VoiceNext.svg?label=)](https://nuget.dcs.aitsys.dev/DisCatSharp.VoiceNext)                                     |
 | DisCatSharp.VoiceNext.Natives           | [![NuGet](https://img.shields.io/nuget/v/DisCatSharp.VoiceNext.Natives.svg?label=)](https://nuget.dcs.aitsys.dev/DisCatSharp.VoiceNext.Natives)                     |
+| DisCatSharp.ProjectTemplates           | [![NuGet](https://img.shields.io/nuget/v/DisCatSharp.ProjectTemplates.svg?label=)](https://nuget.dcs.aitsys.dev/DisCatSharp.ProjectTemplates)                     |
 
 ## Releasing
 To release a new version do the following steps:

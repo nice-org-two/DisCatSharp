@@ -16,6 +16,8 @@
     href: basics/first_bot.md
   - name: Bot as Hosted Service
     href: basics/web_app.md
+  - name: Project Templates
+    href: basics/templates.md
 - name: Beyond Basics
   items:
   - name: Events
@@ -49,6 +51,12 @@
     href: application_commands/options.md
   - name: Events
     href: application_commands/events.md
+  - name: Translations
+    items:
+      - name: Using Translations
+        href: application_commands/translations/using.md
+      - name: Translation Reference
+        href: application_commands/translations/reference.md
 - name: Commands
   items:
   - name: Introduction
