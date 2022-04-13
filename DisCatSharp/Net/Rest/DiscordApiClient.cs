@@ -26,6 +26,7 @@ using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -5323,6 +5324,13 @@ namespace DisCatSharp.Net
 		#endregion
 
 		#region DCS Internals
+		private Lazy<HttpClient> _dcsClient = new(() =>
+		{
+			HttpClient client = new();
+			client.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", Utilities.GetUserAgent());
+			return client;
+		});
+
 		/// <summary>
 		/// Gets the DisCatSharp team.
 		/// </summary>>
@@ -5330,8 +5338,10 @@ namespace DisCatSharp.Net
 		{
 			try
 			{
-				var dcs = await this.Discord.RestClient.GetStringAsync(new Uri("https://dcs.aitsys.dev/api/devs/"));
-				var dcsGuild = await this.Discord.RestClient.GetStringAsync(new Uri("https://dcs.aitsys.dev/api/guild/"));
+				var client = this._dcsClient.Value;
+
+				var dcs = await client.GetStringAsync(new Uri("https://dcs.aitsys.dev/api/devs/"));
+				var dcsGuild = await client.GetStringAsync(new Uri("https://dcs.aitsys.dev/api/guild/"));
 
 				var app = JsonConvert.DeserializeObject<TransportApplication>(dcs);
 				var guild = JsonConvert.DeserializeObject<DiscordGuild>(dcsGuild);
