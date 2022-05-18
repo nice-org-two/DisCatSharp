@@ -22,8 +22,8 @@ Otherwise, if you have a bot account already, start off with the *[writing your 
 
 Once you're up and running, feel free to browse through the [API Documentation](/api/index.html)!
 
-## Support and Questions
+<!--## Support and Questions
 You can get in contact with us on Discord through the following guild:
 
-<!--**DisCatSharp Guild**:</br>
+**DisCatSharp Guild**:</br>
 [![DisCatSharp](https://discordapp.com/api/guilds/858089281214087179/embed.png?style=banner2)](https://discord.gg/U4BGHpKSF7) -->

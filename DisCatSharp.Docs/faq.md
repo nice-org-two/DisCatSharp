@@ -16,7 +16,7 @@ Many issues can be resolved with Intellisense by searching for similarly named m
 As mentioned in the [preamble](xref:preamble), the Mono runtime is inherently unstable and has numerous flaws.<br/>
 Because of this we do not support Mono in any way, nor will we support any other projects which use it.
 
-Instead, we recommend using either the latest LTS release or most recent stable version of [.NET Core](https://dotnet.microsoft.com/download).
+Instead, we recommend using either the latest LTS release or most recent stable version of [.NET](https://dotnet.microsoft.com/download).
 
 ### Connecting to a voice channel with VoiceNext will either hang or throw an exception.
 To troubleshoot, please ensure that:
