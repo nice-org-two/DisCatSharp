@@ -20,6 +20,7 @@
       <PackageTags>discord, discord-api, bots, discord-bots, net-sdk, dcs, discatsharp, csharp, dotnet, vb-net, fsharp</PackageTags>
       <PackageLicenseExpression />
       <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+	  <DocumentationFile>..\XMLDocs\DisCatSharp.Configuration.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>

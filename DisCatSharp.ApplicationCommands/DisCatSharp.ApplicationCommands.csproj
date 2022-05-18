@@ -18,6 +18,7 @@
     <PackageTags>discord, discord-api, bots, discord-bots, chat, dcs, discatsharp, csharp, dotnet, vb-net, fsharp, slash, slashcommands, contextmenu</PackageTags>
     <PackageLicenseExpression />
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+	<DocumentationFile>..\XMLDocs\DisCatSharp.ApplicationComands.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

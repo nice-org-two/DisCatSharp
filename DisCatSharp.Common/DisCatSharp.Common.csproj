@@ -21,6 +21,7 @@
     <PackageTags>common utilities dotnet dotnet-core dotnetfx netfx netcore csharp</PackageTags>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <Nullable>enable</Nullable>
+	<DocumentationFile>..\XMLDocs\DisCatSharp.Common.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
