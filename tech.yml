@@ -1,0 +1,234 @@
+repo_name: nice-org-two/DisCatSharp
+report_id: 40bb517606dc9114a862f12a97399d37
+repo_type: Public
+timestamp: '2023-11-06T13:23:29+00:00'
+requested_by: Lulalaby
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Liquid
+  description: Open-source template language written in Ruby
+  website_url: https://shopify.github.io/liquid
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  imageURL: https://img.stackshare.io/service/1746/no-img-open-source.png
+  detection_source: Repo Metadata
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  imageURL: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
+  detection_source: DisCatSharp.VoiceNext.Natives/DisCatSharp.VoiceNext.Natives.csproj
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  imageURL: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
+  detection_source: DisCatSharp.VoiceNext.Natives/DisCatSharp.VoiceNext.Natives.csproj
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  imageURL: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: DisCatSharp.Docs/dcs/package.json
+  detection_source: DisCatSharp.Docs/dcs/package.json
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  imageURL: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: DisCatSharp.Docs/dcs/package.json
+  detection_source: DisCatSharp.Docs/dcs/package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  imageURL: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  imageURL: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/typos.yml"
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  imageURL: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  imageURL: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: DisCatSharp.Docs/dcs/package.json
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  imageURL: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
+  detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source: Repo Metadata
+- name: clean-css-cli
+  description: A command-line interface to clean-css CSS optimization library
+  package_url: https://www.npmjs.com/clean-css-cli
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  imageURL: https://img.stackshare.io/package/18113/image.png
+  detection_source_url: DisCatSharp.Docs/dcs/package.json
+  detection_source: DisCatSharp.Docs/dcs/package.json
+- name: lunr
+  description: Simple full-text search in your browser
+  package_url: https://www.npmjs.com/lunr
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  imageURL: https://img.stackshare.io/package/18488/default_0f684fdba52879fd48ceb8876e4283627899355a.png
+  detection_source_url: DisCatSharp.Docs/dcs/package.json
+  detection_source: DisCatSharp.Docs/dcs/package.json
+- name: terser
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/terser
+  version: 5.7.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  imageURL: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: DisCatSharp.Docs/dcs/package.json
+  detection_source: DisCatSharp.Docs/dcs/package.json
+  vulnerabilities:
+  - name: Terser insecure use of regular expressions leads to ReDoS
+    cve_id: CVE-2022-25858
+    cve_url: https://github.com/advisories/GHSA-4wf5-vphf-c2xc
+    detected_date: Jul 20
+    severity: high
+    first_patched: 5.14.2
+- name: Microsoft.Extensions.Configuration
+  description: Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  imageURL: https://img.stackshare.io/package/12856/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
+  detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
+- name: Microsoft.Extensions.Configuration.Json
+  description: JSON configuration provider implementation for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration.Json
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  imageURL: https://img.stackshare.io/package/12865/default_4ea11141d2970a66e9637b71cf054ab66968c217.png
+  detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
+  detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  imageURL: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
+  detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
