@@ -1,7 +1,7 @@
 repo_name: nice-org-two/DisCatSharp
-report_id: 69bb655e7137d850361d4aaab8805d97
+report_id: ed1dc42005eeb77a8cf751b738e0b110
 repo_type: Public
-timestamp: '2023-11-07T12:53:28+00:00'
+timestamp: '2023-11-08T07:36:32+00:00'
 requested_by: Lulalaby
 provider: github
 branch: main
@@ -15,7 +15,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -24,7 +24,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/6727/css.png
+  image_url: https://img.stackshare.io/service/6727/css.png
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -34,7 +34,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
   detection_source: Repo Metadata
 - name: Liquid
   description: Open-source template language written in Ruby
@@ -44,7 +44,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
-  imageURL: https://img.stackshare.io/service/1746/no-img-open-source.png
+  image_url: https://img.stackshare.io/service/1746/no-img-open-source.png
   detection_source: Repo Metadata
 - name: ".NET Core"
   description: An Open Source, General-Purpose Development Platform Maintained by
@@ -56,7 +56,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
-  imageURL: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
   detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
   detection_source: DisCatSharp.VoiceNext.Natives/DisCatSharp.VoiceNext.Natives.csproj
 - name: ASP.NET Core
@@ -69,7 +69,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
-  imageURL: https://img.stackshare.io/service/11331/asp.net-core.png
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
   detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
   detection_source: DisCatSharp.VoiceNext.Natives/DisCatSharp.VoiceNext.Natives.csproj
 - name: Bootstrap
@@ -82,7 +82,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
-  imageURL: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
   detection_source_url: DisCatSharp.Docs/dcs/package.json
   detection_source: DisCatSharp.Docs/dcs/package.json
 - name: jQuery
@@ -94,7 +94,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Javascript UI Libraries
-  imageURL: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
   detection_source_url: DisCatSharp.Docs/dcs/package.json
   detection_source: DisCatSharp.Docs/dcs/package.json
 - name: Git
@@ -104,7 +104,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
-  imageURL: https://img.stackshare.io/service/1046/git.png
+  image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -113,7 +113,7 @@ tools:
   hosted_saas: true
   category: Build, Test, Deploy
   sub_category: Continuous Integration
-  imageURL: https://img.stackshare.io/service/11563/actions.png
+  image_url: https://img.stackshare.io/service/11563/actions.png
   detection_source: ".github/workflows/typos.yml"
 - name: NuGet
   description: The package manager for .NET
@@ -122,7 +122,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Package Managers
-  imageURL: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
   detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
 - name: npm
   description: The package manager for JavaScript.
@@ -131,7 +131,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
-  imageURL: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
   detection_source: DisCatSharp.Docs/dcs/package.json
 - name: xUnit
   description: An open source, community-focused unit testing tool
@@ -141,7 +141,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
-  imageURL: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
   detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
   detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
 - name: PowerShell
@@ -151,7 +151,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/3681/powershell-logo.png
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
   detection_source: Repo Metadata
 - name: clean-css-cli
   description: A command-line interface to clean-css CSS optimization library
@@ -162,7 +162,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
-  imageURL: https://img.stackshare.io/package/18113/image.png
+  image_url: https://img.stackshare.io/package/18113/image.png
   detection_source_url: DisCatSharp.Docs/dcs/package.json
   detection_source: DisCatSharp.Docs/dcs/package.json
 - name: lunr
@@ -174,7 +174,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
-  imageURL: https://img.stackshare.io/package/18488/default_0f684fdba52879fd48ceb8876e4283627899355a.png
+  image_url: https://img.stackshare.io/package/18488/default_0f684fdba52879fd48ceb8876e4283627899355a.png
   detection_source_url: DisCatSharp.Docs/dcs/package.json
   detection_source: DisCatSharp.Docs/dcs/package.json
 - name: terser
@@ -186,7 +186,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
-  imageURL: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
   detection_source_url: DisCatSharp.Docs/dcs/package.json
   detection_source: DisCatSharp.Docs/dcs/package.json
   vulnerabilities:
@@ -205,7 +205,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
-  imageURL: https://img.stackshare.io/package/12856/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  image_url: https://img.stackshare.io/package/12856/default_0f5233770e71818507f2339042e7e61bef904e70.png
   detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
   detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
 - name: Microsoft.Extensions.Configuration.Json
@@ -217,7 +217,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
-  imageURL: https://img.stackshare.io/package/12865/default_4ea11141d2970a66e9637b71cf054ab66968c217.png
+  image_url: https://img.stackshare.io/package/12865/default_4ea11141d2970a66e9637b71cf054ab66968c217.png
   detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
   detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
 - name: xunit.runner.visualstudio
@@ -229,6 +229,6 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
-  imageURL: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
   detection_source_url: DisCatSharp.Configuration.Tests/DisCatSharp.Configuration.Tests.csproj
   detection_source: DisCatSharp.Hosting.Tests/DisCatSharp.Hosting.Tests.csproj
