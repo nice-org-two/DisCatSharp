@@ -38,8 +38,8 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/DisCatSharp](https://github.com/nice-org-two/DisCatSharp)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|20<br/>Tools used|83<br/>Contributors|11/08/23 <br/>Report generated|05/25/22<br/>Last commit date|
-|------|------|------|------|
+|20<br/>Tools used|11/10/23 <br/>Report generated|
+|------|------|
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (4)
@@ -181,18 +181,18 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[Microsoft.Extensions.Configuration](https://www.nuget.org/Microsoft.Extensions.Configuration)|v6.0.0|N/A|N/A |Apache-2.0|N/A|
-|[Microsoft.Extensions.Configuration.Json](https://www.nuget.org/Microsoft.Extensions.Configuration.Json)|v6.0.0|N/A|N/A |Apache-2.0|N/A|
-|[xunit.runner.visualstudio](https://www.nuget.org/xunit.runner.visualstudio)|v2.4.5|N/A|N/A |Other|N/A|
+|[Microsoft.Extensions.Configuration](https://www.nuget.org/Microsoft.Extensions.Configuration)|v6.0.0|05/11/22|dependabot[bot] |Apache-2.0|N/A|
+|[Microsoft.Extensions.Configuration.Json](https://www.nuget.org/Microsoft.Extensions.Configuration.Json)|v6.0.0|05/11/22|dependabot[bot] |Apache-2.0|N/A|
+|[xunit.runner.visualstudio](https://www.nuget.org/xunit.runner.visualstudio)|v2.4.5|05/05/22|dependabot[bot] |Other|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (3)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[clean-css-cli](https://www.npmjs.com/clean-css-cli)|v5.3.0|N/A|N/A |MIT|N/A|
-|[lunr](https://www.npmjs.com/lunr)|v2.1.2|N/A|N/A |MIT|N/A|
-|[terser](https://www.npmjs.com/terser)|v5.7.1|N/A|N/A |BSD-2-Clause|[CVE-2022-25858](https://github.com/advisories/GHSA-4wf5-vphf-c2xc) (High)|
+|[clean-css-cli](https://www.npmjs.com/clean-css-cli)|v5.3.0|05/24/22|Lala Sabathil |MIT|N/A|
+|[lunr](https://www.npmjs.com/lunr)|v2.1.2|05/24/22|Lala Sabathil |MIT|N/A|
+|[terser](https://www.npmjs.com/terser)|v5.7.1|05/24/22|Lala Sabathil |BSD-2-Clause|[CVE-2022-25858](https://github.com/advisories/GHSA-4wf5-vphf-c2xc) (High)|
 
 <br/>
 <div align='center'>
