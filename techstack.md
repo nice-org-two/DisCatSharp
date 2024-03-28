@@ -42,7 +42,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/DisCatSharp](https://github.com/nice-org-two/DisCatSharp)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|20<br/>Tools used|03/17/24 <br/>Report generated|
+|20<br/>Tools used|03/28/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -194,9 +194,9 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
+|[terser](https://www.npmjs.com/terser)|v5.7.1|05/24/22|Lala Sabathil |BSD-2-Clause|[CVE-2022-25858](https://github.com/advisories/GHSA-4wf5-vphf-c2xc) (High)|
 |[clean-css-cli](https://www.npmjs.com/clean-css-cli)|v5.3.0|05/24/22|Lala Sabathil |MIT|N/A|
 |[lunr](https://www.npmjs.com/lunr)|v2.1.2|05/24/22|Lala Sabathil |MIT|N/A|
-|[terser](https://www.npmjs.com/terser)|v5.7.1|05/24/22|Lala Sabathil |BSD-2-Clause|[CVE-2022-25858](https://github.com/advisories/GHSA-4wf5-vphf-c2xc) (High)|
 
 <br/>
 <div align='center'>
